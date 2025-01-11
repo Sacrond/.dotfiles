@@ -10,7 +10,7 @@ setopt HIST_IGNORE_SPACE	# To not record an event starting with a space.
 setopt HIST_VERIFY		# Do not execute immediately upon history expansion.
 
 # === Aliases === #
-source $ZDOTDIR/.aliases
+source $ZDOTDIR/.aliases.zsh
 
 # === Plugins === #
-source $ZDOTDIR/.plugins
+source $ZDOTDIR/.plugins.zsh
