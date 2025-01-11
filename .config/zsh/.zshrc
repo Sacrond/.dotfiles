@@ -11,3 +11,6 @@ setopt HIST_VERIFY		# Do not execute immediately upon history expansion.
 
 # === Aliases === #
 source $ZDOTDIR/.aliases
+
+# === Plugins === #
+source $ZDOTDIR/.plugins
