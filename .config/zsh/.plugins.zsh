@@ -9,3 +9,9 @@ if [ -f "/usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh" ]; 
 else
    echo "zsh-autosuggestions not installed"
 fi
+
+if [ -f "$ZDOTDIR/plugins/bd.zsh" ]; then
+   source $ZDOTDIR/plugins/bd.zsh
+else
+   echo "bd not installed"
+fi
