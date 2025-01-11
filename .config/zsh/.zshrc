@@ -9,6 +9,21 @@ setopt HIST_SAVE_NO_DUPS	# Do not write a duplicate event to the history file.
 setopt HIST_IGNORE_SPACE	# To not record an event starting with a space.
 setopt HIST_VERIFY		# Do not execute immediately upon history expansion.
 
+# === Fix some keys inside zsh === #
+autoload -Uz select-word-style
+select-word-style bash
+
+# === Add highlight enabled tab completion with colors === #
+zstyle ":completion:*" menu select
+eval "$(dircolors)"
+zstyle ":completion:*" list-colors ${(s.:.)LS_COLORS}
+
+# === Completions === #
+autoload -Uz compinit
+compinit
+autoload -Uz bashcompinit
+bashcompinit
+
 # === Aliases === #
 source $ZDOTDIR/.aliases.zsh
 

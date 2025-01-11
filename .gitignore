@@ -1,2 +1,3 @@
 # Ignore zsh history file
 .config/zsh/.zhistory
+.config/zsh/.zcompdump
