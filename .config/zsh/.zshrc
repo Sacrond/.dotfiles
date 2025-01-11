@@ -20,6 +20,10 @@ setopt HIST_VERIFY		# Do not execute immediately upon history expansion.
 autoload -Uz select-word-style
 select-word-style bash
 
+# === Vi mode === #
+bindkey -v
+export KEYTIMEOUT=1
+
 # === Add highlight enabled tab completion with colors === #
 zstyle ":completion:*" menu select
 eval "$(dircolors)"
@@ -36,3 +40,15 @@ source $ZDOTDIR/.aliases.zsh
 
 # === Plugins === #
 source $ZDOTDIR/.plugins.zsh
+
+# === History substring keybindings === #
+bindkey '^[[A' history-substring-search-up
+bindkey '^[[B' history-substring-search-down
+
+# === Custom ZSH keybindings === #
+bindkey "^[[1;5C" forward-word
+bindkey "^[[1;5D" backward-word
+bindkey "^[[H" beginning-of-line
+bindkey "^[[F" end-of-line
+bindkey "^[[3~" delete-char
+
