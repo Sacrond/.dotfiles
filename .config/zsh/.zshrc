@@ -25,9 +25,9 @@ bindkey -v
 export KEYTIMEOUT=1
 
 # === Add highlight enabled tab completion with colors === #
-zstyle ":completion:*" menu select
 eval "$(dircolors)"
-zstyle ":completion:*" list-colors ${(s.:.)LS_COLORS}
+zstyle ":completion:*" list-colors "${(s.:.)LS_COLORS}"
+zstyle ":completion:*" matcher-list "m:{a-z}={A-Za-z}"
 
 # === Completions === #
 autoload -Uz compinit

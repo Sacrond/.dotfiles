@@ -1,6 +1,7 @@
 # === System === #
 alias shutdown="shutdown now"
 alias cl="clear"
+alias ls="ls --color"
 
 # === Neovim === #
 alias vim="nvim"
