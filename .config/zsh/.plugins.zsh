@@ -17,6 +17,12 @@ else
    echo "fzf not installed"
 fi
 
+if [ -f "/usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme" ]; then
+   source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
+else
+   echo "powerlevel10k not installed"
+fi
+
 if [ -f "$ZDOTDIR/plugins/bd.zsh" ]; then
    source $ZDOTDIR/plugins/bd.zsh
 else
