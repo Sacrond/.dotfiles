@@ -12,6 +12,7 @@ export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
 export HISTFILE="$ZDOTDIR/.zhistory"		# History filepath
 export HISTSIZE=5000				# Maximum events for internal history
 export SAVEHIST=5000				# Maximum events in history file
+export COMPLETION_WAITING_DOTS="true"		# Show dots while waiting for completion features
 
 # fzf
 export FZF_DEFAULT_COMMAND='rg --files --hidden --glob "!.git"'

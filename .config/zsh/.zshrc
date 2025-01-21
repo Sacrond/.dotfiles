@@ -27,10 +27,6 @@ setopt HIST_VERIFY		# Do not execute immediately upon history expansion.
 autoload -Uz select-word-style
 select-word-style bash
 
-# === Vi mode === #
-bindkey -v
-export KEYTIMEOUT=1
-
 # === Add highlight enabled tab completion with colors === #
 eval "$(dircolors)"
 zstyle ":completion:*" menu select
@@ -39,9 +35,19 @@ zstyle ":completion:*" matcher-list "m:{a-z}={A-Za-z}"
 
 # === Completions === #
 autoload -Uz compinit
-compinit
 autoload -Uz bashcompinit
+zmodload zsh/complist
+compinit
 bashcompinit
+
+# === Vi mode === #
+bindkey -v
+export KEYTIMEOUT=1
+
+bindkey -M menuselect 'h' vi-backward-char
+bindkey -M menuselect 'k' vi-up-line-or-history
+bindkey -M menuselect 'l' vi-forward-char
+bindkey -M menuselect 'j' vi-down-line-or-history
 
 # === Prompts === #
 # To customize prompt, run `p10k configure` or edit ~/.config/zsh/.p10k.zsh.
