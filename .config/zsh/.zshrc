@@ -39,6 +39,7 @@ autoload -Uz bashcompinit
 zmodload zsh/complist
 compinit
 bashcompinit
+_comp_options+=(globdots)	# Include hidden files
 
 # === Vi mode === #
 bindkey -v
@@ -48,16 +49,6 @@ bindkey -M menuselect 'h' vi-backward-char
 bindkey -M menuselect 'k' vi-up-line-or-history
 bindkey -M menuselect 'l' vi-forward-char
 bindkey -M menuselect 'j' vi-down-line-or-history
-
-# === Prompts === #
-# To customize prompt, run `p10k configure` or edit ~/.config/zsh/.p10k.zsh.
-[[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh
-
-# === Aliases === #
-source $ZDOTDIR/.aliases.zsh
-
-# === Plugins === #
-source $ZDOTDIR/.plugins.zsh
 
 # === History substring keybindings === #
 bindkey '^[[A' history-substring-search-up
@@ -69,3 +60,13 @@ bindkey "^[[1;5D" backward-word
 bindkey "^[[H" beginning-of-line
 bindkey "^[[F" end-of-line
 bindkey "^[[3~" delete-char
+
+# === Prompts === #
+# To customize prompt, run `p10k configure` or edit ~/.config/zsh/.p10k.zsh.
+[[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh
+
+# === Aliases === #
+source $ZDOTDIR/.aliases.zsh
+
+# === Plugins === #
+source $ZDOTDIR/.plugins.zsh
