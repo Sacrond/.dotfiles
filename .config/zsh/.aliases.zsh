@@ -14,13 +14,12 @@ alias ip="ip -color=auto"
 # === Neovim === #
 alias vim="nvim"
 alias vi="nvim"
-alias v="nvim"
-
-# === tmux === #
-alias t="tmux"
 
 # === fzf === #
 alias ff="fzf"
 
 # === Nvidia === #
 alias nvidia-settings="nvidia-settings --config='$XDG_HOME_CONFIG/nvidia/settings'"
+
+# === Personal === #
+alias dot="cd ~/dotfiles"
