@@ -1,3 +1,4 @@
-# Ignore zsh history file
+.config/tmux/resurrect/
+
 .config/zsh/.zhistory
 .config/zsh/.zcompdump
