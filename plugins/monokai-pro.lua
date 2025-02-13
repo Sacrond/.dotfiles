@@ -1,0 +1,50 @@
+return {
+  -- {
+  --   "loctvl842/monokai-pro.nvim",
+  --   name = "monokai-pro",
+  --   opts = {
+  --     background_clear = {
+  --       "toggleterm",
+  --       "telescope",
+  --       "neo-tree",
+  --       "bufferline",
+  --       "which-key",
+  --       "renamer",
+  --       "notify",
+  --     },
+  --     overridePalette = function()
+  --       return {
+  --         dark1 = "#727072",
+  --         dark2 = "#313131",
+  --         background = "#1b191b",
+  --         text = "#f0f0f1",
+  --         accent1 = "#ff6188",
+  --         accent2 = "#fc9867",
+  --         accent3 = "#ffd866",
+  --         accent4 = "#a9dc76",
+  --         accent5 = "#78dce8",
+  --         accent6 = "#ab9df2",
+  --         dimmed1 = "#c1c0c0",
+  --         dimmed2 = "#939293", -- border
+  --         dimmed3 = "#727072",
+  --         dimmed4 = "#5b595c",
+  --         dimmed5 = "#403e41",
+  --       }
+  --     end,
+  --     overrideScheme = function()
+  --       local cs_override = {}
+  --
+  --       cs_override.editorIndentGuide = {
+  --         background = "#ffffff",
+  --       }
+  --       return cs_override
+  --     end,
+  --   },
+  -- },
+  -- {
+  --   "LazyVim/LazyVim",
+  --   opts = {
+  --     colorscheme = "monokai-pro",
+  --   },
+  -- },
+}
