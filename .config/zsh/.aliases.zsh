@@ -22,4 +22,5 @@ alias ff="fzf"
 alias nvidia-settings="nvidia-settings --config='$XDG_HOME_CONFIG/nvidia/settings'"
 
 # === Personal === #
-alias dot="cd ~/dotfiles"
+alias dot="cd ~/.dotfiles"
+alias lab="cd ~/Personal/Lab"
