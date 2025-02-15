@@ -24,3 +24,4 @@ alias nvidia-settings="nvidia-settings --config='$XDG_HOME_CONFIG/nvidia/setting
 # === Personal === #
 alias dot="cd ~/.dotfiles"
 alias lab="cd ~/Personal/Lab"
+alias lab-rust="cd ~/Personal/Lab/Rust"
