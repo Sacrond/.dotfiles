@@ -1,7 +1,7 @@
 return {
   {
     "catppuccin/nvim",
-    name = "catppucin",
+    name = "catppuccin",
     lazy = false,
     priority = 1000,
     config = function()
@@ -10,7 +10,7 @@ return {
         no_italic = true,
         color_overrides = {
           all = {
-            base = "#1d1d1d",
+            base = "#1f1f1f",
             mantle = "#1a1a1a",
             crust = "#171717",
             text = "#fcfcfb",
