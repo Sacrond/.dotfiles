@@ -5,6 +5,10 @@ return {
       sources = {
         files = {
           hidden = true,
+          exclude = {
+            ".git",
+            "node_modules",
+          },
         },
         grep = {
           hidden = true,
@@ -12,6 +16,10 @@ return {
         explorer = {
           hidden = true,
           ignored = true,
+          exclude = {
+            ".git",
+            "node_modules",
+          },
         },
       },
     },
