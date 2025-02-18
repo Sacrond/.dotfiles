@@ -168,6 +168,9 @@ return {
             ["@lsp.type.macro.rust"] = {
               fg = colors.green,
             },
+            ["@lsp.type.escapeSequence.rust"] = {
+              fg = colors.blue,
+            },
 
             NeoTreeIndentMarker = {
               fg = colors.surface0,
