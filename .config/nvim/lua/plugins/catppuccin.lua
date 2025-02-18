@@ -123,7 +123,7 @@ return {
             ["@keyword.function"] = {
               fg = colors.red,
             },
-            ["@lsp.mod.mutable.rust"] = {
+            ["@lsp.typemod.variable.mutable.rust"] = {
               style = { "underline" },
             },
             ["@lsp.type.interface"] = {
