@@ -27,6 +27,9 @@ return {
             String = {
               fg = colors.yellow,
             },
+            Character = {
+              fg = colors.yellow,
+            },
             Boolean = {
               fg = colors.lavender,
             },
@@ -125,6 +128,9 @@ return {
             },
             ["@lsp.typemod.variable.mutable.rust"] = {
               style = { "underline" },
+            },
+            ["@lsp.type.variable.rust"] = {
+              fg = colors.text,
             },
             ["@lsp.type.interface"] = {
               fg = colors.blue,
