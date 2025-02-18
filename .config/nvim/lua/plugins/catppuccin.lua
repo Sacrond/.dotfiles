@@ -96,6 +96,12 @@ return {
             FzfLuaBorder = {
               fg = colors.blue,
             },
+            RustStorage = {
+              fg = colors.red,
+            },
+            RustSigil = {
+              fg = colors.red,
+            },
             ["@keyword.return"] = {
               fg = colors.red,
             },
@@ -116,6 +122,9 @@ return {
             },
             ["@keyword.function"] = {
               fg = colors.red,
+            },
+            ["@lsp.mod.mutable.rust"] = {
+              style = { "underline" },
             },
             ["@lsp.type.interface"] = {
               fg = colors.blue,
