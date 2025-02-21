@@ -129,6 +129,9 @@ return {
             ["@lsp.typemod.variable.mutable.rust"] = {
               style = { "underline" },
             },
+            ["@lsp.typemod.parameter.mutable.rust"] = {
+              style = { "underline" },
+            },
             ["@lsp.type.variable.rust"] = {
               fg = colors.text,
             },
