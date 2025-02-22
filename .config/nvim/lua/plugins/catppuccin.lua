@@ -141,6 +141,9 @@ return {
             ["@lsp.typemod.struct.defaultLibrary.rust"] = {
               fg = colors.teal,
             },
+            ["@lsp.typemod.derive.defaultLibrary.rust"] = {
+              fg = colors.teal,
+            },
             ["@lsp.type.selfTypeKeyword.rust"] = {
               fg = colors.peach,
             },
@@ -168,9 +171,12 @@ return {
             ["@lsp.typemod.attributeBracket.attribute.rust"] = {
               fg = colors.text,
             },
-            ["@lsp.type.macro.rust"] = {
-              fg = colors.green,
+            ["@lsp.typemod.macro.defaultLibrary.rust"] = {
+              fg = colors.mauve,
             },
+            -- ["@lsp.type.macro.rust"] = {
+            --   fg = colors.green,
+            -- },
             ["@lsp.type.escapeSequence.rust"] = {
               fg = colors.blue,
             },
