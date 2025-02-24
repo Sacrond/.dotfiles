@@ -20,6 +20,7 @@ return {
             yellow = "#fdf1a1",
             red = "#ff7198",
             green = "#a9dc76",
+            mauve = "#ab9df2",
           },
         },
         custom_highlights = function(colors)
@@ -31,10 +32,10 @@ return {
               fg = colors.yellow,
             },
             Boolean = {
-              fg = colors.lavender,
+              fg = colors.mauve,
             },
             Number = {
-              fg = colors.lavender,
+              fg = colors.mauve,
             },
             Type = {
               fg = colors.sky,
@@ -52,7 +53,7 @@ return {
               fg = colors.red,
             },
             Constant = {
-              fg = colors.lavender,
+              fg = colors.mauve,
             },
             Delimiter = {
               fg = colors.red,
@@ -88,7 +89,7 @@ return {
               fg = colors.blue,
             },
             TSRainbowViolet = {
-              fg = colors.lavender,
+              fg = colors.mauve,
             },
             SnacksIndent = {
               fg = colors.surface0,
@@ -151,13 +152,13 @@ return {
               fg = colors.peach,
             },
             ["@lsp.typemod.enumMember.library.rust"] = {
-              fg = colors.lavender,
+              fg = colors.mauve,
             },
             ["@lsp.typemod.enumMember.defaultLibrary.rust"] = {
-              fg = colors.lavender,
+              fg = colors.mauve,
             },
             ["@lsp.type.enumMember.rust"] = {
-              fg = colors.lavender,
+              fg = colors.mauve,
             },
             ["@lsp.type.decorator.rusts"] = {
               fg = colors.green,
@@ -172,11 +173,11 @@ return {
               fg = colors.text,
             },
             ["@lsp.typemod.macro.defaultLibrary.rust"] = {
-              fg = colors.mauve,
+              fg = colors.green,
             },
-            -- ["@lsp.type.macro.rust"] = {
-            --   fg = colors.green,
-            -- },
+            ["@lsp.type.macro.rust"] = {
+              fg = colors.green,
+            },
             ["@lsp.type.escapeSequence.rust"] = {
               fg = colors.blue,
             },
