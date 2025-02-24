@@ -53,7 +53,7 @@ return {
               fg = colors.red,
             },
             Constant = {
-              fg = colors.mauve,
+              fg = colors.blue,
             },
             Delimiter = {
               fg = colors.red,
@@ -63,6 +63,15 @@ return {
             },
             Comment = {
               fg = "#7c7c7c",
+            },
+            Identifier = {
+              fg = colors.sky,
+            },
+            Macro = {
+              fg = colors.green,
+            },
+            Conditional = {
+              fg = colors.red,
             },
             IndentBlanklineContextChar = {
               fg = colors.surface0,
@@ -106,6 +115,15 @@ return {
             RustSigil = {
               fg = colors.red,
             },
+            RustPanic = {
+              fg = colors.green,
+            },
+            RustDerive = {
+              fg = colors.green,
+            },
+            rustSelf = {
+              fg = colors.peach,
+            },
             ["@keyword.return"] = {
               fg = colors.red,
             },
@@ -119,7 +137,7 @@ return {
               fg = colors.peach,
             },
             ["@type.builtin"] = {
-              fg = colors.teal,
+              fg = colors.sky,
             },
             ["@function.builtin"] = {
               fg = colors.green,
@@ -140,10 +158,10 @@ return {
               fg = colors.blue,
             },
             ["@lsp.typemod.struct.defaultLibrary.rust"] = {
-              fg = colors.teal,
+              fg = colors.sky,
             },
             ["@lsp.typemod.derive.defaultLibrary.rust"] = {
-              fg = colors.teal,
+              fg = colors.sky,
             },
             ["@lsp.type.selfTypeKeyword.rust"] = {
               fg = colors.peach,
@@ -152,13 +170,13 @@ return {
               fg = colors.peach,
             },
             ["@lsp.typemod.enumMember.library.rust"] = {
-              fg = colors.mauve,
+              fg = colors.blue,
             },
             ["@lsp.typemod.enumMember.defaultLibrary.rust"] = {
-              fg = colors.mauve,
+              fg = colors.blue,
             },
             ["@lsp.type.enumMember.rust"] = {
-              fg = colors.mauve,
+              fg = colors.blue,
             },
             ["@lsp.type.decorator.rusts"] = {
               fg = colors.green,
