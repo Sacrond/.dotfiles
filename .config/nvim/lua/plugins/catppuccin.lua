@@ -52,9 +52,9 @@ return {
             Include = {
               fg = colors.red,
             },
-            Constant = {
-              fg = colors.blue,
-            },
+            -- Constant = {
+            --   fg = colors.blue,
+            -- },
             Delimiter = {
               fg = colors.red,
             },
@@ -146,22 +146,21 @@ return {
               fg = colors.red,
             },
             ["@lsp.typemod.variable.mutable.rust"] = {
+              sp = colors.overlay1,
               style = { "underline" },
             },
             ["@lsp.typemod.parameter.mutable.rust"] = {
+              sp = colors.overlay1,
               style = { "underline" },
             },
             ["@lsp.type.variable.rust"] = {
               fg = colors.text,
             },
-            ["@lsp.type.interface"] = {
-              fg = colors.blue,
-            },
             ["@lsp.typemod.struct.defaultLibrary.rust"] = {
               fg = colors.sky,
             },
-            ["@lsp.typemod.derive.defaultLibrary.rust"] = {
-              fg = colors.sky,
+            ["@lsp.type.interface.rust"] = {
+              fg = colors.rosewater,
             },
             ["@lsp.type.selfTypeKeyword.rust"] = {
               fg = colors.peach,
@@ -198,6 +197,9 @@ return {
             },
             ["@lsp.type.escapeSequence.rust"] = {
               fg = colors.blue,
+            },
+            ["@lsp.type.derive.rust"] = {
+              fg = colors.subtext1,
             },
 
             NeoTreeIndentMarker = {
