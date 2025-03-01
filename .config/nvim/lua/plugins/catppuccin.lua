@@ -147,11 +147,11 @@ return {
               fg = colors.red,
             },
             ["@lsp.typemod.variable.mutable.rust"] = {
-              sp = colors.overlay2,
+              sp = colors.subtext1,
               style = { "underline" },
             },
             ["@lsp.typemod.parameter.mutable.rust"] = {
-              sp = colors.overlay2,
+              sp = colors.subtext1,
               style = { "underline" },
             },
             ["@lsp.type.variable.rust"] = {
