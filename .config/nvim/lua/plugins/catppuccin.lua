@@ -188,7 +188,7 @@ return {
               fg = colors.green,
             },
             ["@lsp.typemod.attributeBracket.attribute.rust"] = {
-              fg = colors.text,
+              fg = colors.rosewater,
             },
             ["@lsp.typemod.macro.defaultLibrary.rust"] = {
               fg = colors.green,
