@@ -151,7 +151,7 @@ return {
               style = { "underline" },
             },
             ["@lsp.typemod.parameter.mutable.rust"] = {
-              sp = colors.subtext1,
+              sp = colors.peach,
               style = { "underline" },
             },
             ["@lsp.type.variable.rust"] = {
@@ -161,7 +161,7 @@ return {
               fg = colors.sky,
             },
             ["@lsp.type.interface.rust"] = {
-              fg = colors.rosewater,
+              fg = colors.blue,
             },
             ["@lsp.type.selfTypeKeyword.rust"] = {
               fg = colors.peach,
@@ -170,13 +170,13 @@ return {
               fg = colors.peach,
             },
             ["@lsp.typemod.enumMember.library.rust"] = {
-              fg = colors.blue,
+              fg = colors.mauve,
             },
             ["@lsp.typemod.enumMember.defaultLibrary.rust"] = {
-              fg = colors.blue,
+              fg = colors.mauve,
             },
             ["@lsp.type.enumMember.rust"] = {
-              fg = colors.blue,
+              fg = colors.mauve,
             },
             ["@lsp.type.decorator.rusts"] = {
               fg = colors.green,
