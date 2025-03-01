@@ -21,6 +21,7 @@ return {
             red = "#ff7198",
             green = "#a9dc76",
             mauve = "#ab9df2",
+            rosewater = "#f5d0bc",
           },
         },
         custom_highlights = function(colors)
@@ -146,11 +147,11 @@ return {
               fg = colors.red,
             },
             ["@lsp.typemod.variable.mutable.rust"] = {
-              sp = colors.overlay1,
+              sp = colors.overlay2,
               style = { "underline" },
             },
             ["@lsp.typemod.parameter.mutable.rust"] = {
-              sp = colors.overlay1,
+              sp = colors.overlay2,
               style = { "underline" },
             },
             ["@lsp.type.variable.rust"] = {
