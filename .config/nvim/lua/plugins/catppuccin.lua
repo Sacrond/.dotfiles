@@ -122,6 +122,9 @@ return {
             RustDerive = {
               fg = colors.green,
             },
+            rustAttribute = {
+              fg = colors.rosewater,
+            },
             rustSelf = {
               fg = colors.peach,
             },
@@ -186,9 +189,6 @@ return {
             },
             ["@lsp.typemod.decorator.attribute.rust"] = {
               fg = colors.green,
-            },
-            ["@lsp.typemod.attributeBracket.attribute.rust"] = {
-              fg = colors.rosewater,
             },
             ["@lsp.typemod.macro.defaultLibrary.rust"] = {
               fg = colors.green,
