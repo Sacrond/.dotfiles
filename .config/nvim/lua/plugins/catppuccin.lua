@@ -149,6 +149,9 @@ return {
             ["@keyword.function"] = {
               fg = colors.red,
             },
+            ["@lsp.mod.callable.rust"] = {
+              fg = colors.green,
+            },
             ["@lsp.typemod.variable.mutable.rust"] = {
               sp = colors.subtext1,
               style = { "underline" },
@@ -156,6 +159,9 @@ return {
             ["@lsp.typemod.parameter.mutable.rust"] = {
               sp = colors.peach,
               style = { "underline" },
+            },
+            ["@lsp.typemod.parameter.declaration.rust"] = {
+              fg = colors.peach,
             },
             ["@lsp.type.variable.rust"] = {
               fg = colors.text,
