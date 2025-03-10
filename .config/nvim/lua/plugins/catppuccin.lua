@@ -110,6 +110,15 @@ return {
             FzfLuaBorder = {
               fg = colors.blue,
             },
+            BlinkCmpDoc = {
+              link = "Pmenu",
+            },
+            BlinkCmpDocBorder = {
+              link = "Pmenu",
+            },
+            BlinkCmpDocSeparator = {
+              link = "Pmenu",
+            },
             RustStorage = {
               fg = colors.red,
             },
