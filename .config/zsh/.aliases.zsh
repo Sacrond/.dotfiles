@@ -23,7 +23,7 @@ alias nvidia-settings="nvidia-settings --config='$XDG_HOME_CONFIG/nvidia/setting
 
 # === Personal === #
 alias dot="cd ~/.dotfiles"
-alias bm="cd ~/Personal/Beermoney"
+alias beer="cd ~/Personal/Beermoney"
 alias lab="cd ~/Personal/Lab"
 alias lrust="cd ~/Personal/Lab/rust"
 alias lnode="cd ~/Personal/Lab/node"

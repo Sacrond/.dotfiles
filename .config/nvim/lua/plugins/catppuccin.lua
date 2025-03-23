@@ -53,9 +53,6 @@ return {
             Include = {
               fg = colors.red,
             },
-            -- Constant = {
-            --   fg = colors.blue,
-            -- },
             Delimiter = {
               fg = colors.red,
             },
@@ -64,6 +61,12 @@ return {
             },
             Comment = {
               fg = "#7c7c7c",
+            },
+            Exception = {
+              fg = colors.red,
+            },
+            Constant = {
+              fg = colors.text,
             },
             Identifier = {
               fg = colors.sky,
@@ -158,6 +161,9 @@ return {
             ["@keyword.function"] = {
               fg = colors.red,
             },
+            ["@variable.member"] = {
+              fg = colors.blue,
+            },
             ["@lsp.mod.callable.rust"] = {
               fg = colors.green,
             },
@@ -217,7 +223,9 @@ return {
             ["@lsp.type.derive.rust"] = {
               fg = colors.subtext1,
             },
-
+            ["@keyword.repeat.javascript"] = {
+              fg = colors.red,
+            },
             NeoTreeIndentMarker = {
               fg = colors.surface0,
             },
