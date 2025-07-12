@@ -1,6 +1,7 @@
 .config/tmux/resurrect/
 
 .config/zsh/.zhistory
+.config/zsh/.zsh_history
 .config/zsh/.zcompdump
 
 .config/nvim/lazy-lock.json
