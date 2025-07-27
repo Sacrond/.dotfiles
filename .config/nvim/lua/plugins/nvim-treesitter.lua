@@ -1,19 +1,46 @@
 return {
-  -- "nvim-treesitter/nvim-treesitter",
-  -- dependencies = { "HiPhish/nvim-ts-rainbow2" },
-  -- opts = function(_, opts)
-  --   opts.rainbow = {
-  --     enable = true,
-  --     query = "rainbow-parens",
-  --     strategy = require("ts-rainbow").strategy.global,
-  --     hlgroups = {
-  --       "TSRainbowRed",
-  --       "TSRainbowOrange",
-  --       "TSRainbowYellow",
-  --       "TSRainbowGreen",
-  --       "TSRainbowBlue",
-  --       "TSRainbowViolet",
-  --     },
-  --   }
-  -- end,
+    -- "nvim-treesitter/nvim-treesitter",
+    -- dependencies = { "HiPhish/nvim-ts-rainbow2" },
+    -- opts = function(_, opts)
+    --   opts.rainbow = {
+    --     enable = true,
+    --     query = "rainbow-parens",
+    --     strategy = require("ts-rainbow").strategy.global,
+    --     hlgroups = {
+    --       "TSRainbowRed",
+    --       "TSRainbowOrange",
+    --       "TSRainbowYellow",
+    --       "TSRainbowGreen",
+    --       "TSRainbowBlue",
+    --       "TSRainbowViolet",
+    --     },
+    --   }
+    -- end,
+    "nvim-treesitter/nvim-treesitter",
+    dependencies = { "HiPhish/rainbow-delimiters.nvim" },
+    config = function()
+        require("rainbow-delimiters.setup").setup({
+            strategy = {
+                [""] = "rainbow-delimiters.strategy.global",
+                vim = "rainbow-delimiters.strategy.local",
+            },
+            query = {
+                [""] = "rainbow-delimiters",
+                lua = "rainbow-blocks",
+            },
+            priority = {
+                [""] = 110,
+                lua = 210,
+            },
+            highlight = {
+                "RainbowDelimiterRed",
+                "RainbowDelimiterYellow",
+                "RainbowDelimiterBlue",
+                "RainbowDelimiterOrange",
+                "RainbowDelimiterGreen",
+                "RainbowDelimiterViolet",
+                "RainbowDelimiterCyan",
+            },
+        })
+    end,
 }
