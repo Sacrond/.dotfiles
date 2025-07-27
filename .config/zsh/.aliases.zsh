@@ -27,6 +27,7 @@ alias beer="cd ~/Personal/Beermoney"
 alias lab="cd ~/Personal/Lab"
 alias lrust="cd ~/Personal/Lab/rust"
 alias lnode="cd ~/Personal/Lab/node"
+alias lgo="cd ~/Personal/Lab/go"
 
 # === Work === #
 alias work="cd ~/Work"
