@@ -17,8 +17,8 @@ return {
     --   }
     -- end,
     "nvim-treesitter/nvim-treesitter",
-    dependencies = { "HiPhish/rainbow-delimiters.nvim" },
-    config = function()
+    dependencies = { "hiphish/rainbow-delimiters.nvim" },
+    opts = function(_, opts)
         require("rainbow-delimiters.setup").setup({
             strategy = {
                 [""] = "rainbow-delimiters.strategy.global",
@@ -33,13 +33,13 @@ return {
                 lua = 210,
             },
             highlight = {
-                "RainbowDelimiterRed",
-                "RainbowDelimiterYellow",
-                "RainbowDelimiterBlue",
-                "RainbowDelimiterOrange",
-                "RainbowDelimiterGreen",
-                "RainbowDelimiterViolet",
-                "RainbowDelimiterCyan",
+                "rainbowdelimiterred",
+                "rainbowdelimiteryellow",
+                "rainbowdelimiterblue",
+                "rainbowdelimiterorange",
+                "rainbowdelimitergreen",
+                "rainbowdelimiterviolet",
+                "rainbowdelimitercyan",
             },
         })
     end,
