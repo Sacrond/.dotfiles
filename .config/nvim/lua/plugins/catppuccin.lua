@@ -140,6 +140,9 @@ return {
                         rustSelf = {
                             fg = colors.peach,
                         },
+                        ["@variable.member.go"] = {
+                            fg = colors.text,
+                        },
                         ["@keyword.return"] = {
                             fg = colors.red,
                         },
@@ -229,7 +232,6 @@ return {
                         NeoTreeIndentMarker = {
                             fg = colors.surface0,
                         },
-
                         WhichKeyGroup = {
                             fg = colors.blue,
                         },
