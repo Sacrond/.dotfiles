@@ -150,6 +150,9 @@ return {
                         ["@keyword.repeat.go"] = {
                             fg = colors.red,
                         },
+                        ["@constant.builtin.go"] = {
+                            fg = colors.mauve,
+                        },
                         ["@keyword.return"] = {
                             fg = colors.red,
                         },
