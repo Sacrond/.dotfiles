@@ -7,6 +7,10 @@ return {
         config = function()
             require("catppuccin").setup({
                 flavour = "mocha",
+                float = {
+                    transparent = false,
+                    solid = false,
+                },
                 no_italic = true,
                 color_overrides = {
                     all = {
@@ -142,6 +146,9 @@ return {
                         },
                         ["@variable.member.go"] = {
                             fg = colors.text,
+                        },
+                        ["@keyword.repeat.go"] = {
+                            fg = colors.red,
                         },
                         ["@keyword.return"] = {
                             fg = colors.red,
