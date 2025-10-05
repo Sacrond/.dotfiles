@@ -153,6 +153,12 @@ return {
                         ["@constant.builtin.go"] = {
                             fg = colors.mauve,
                         },
+                        ["@string.escape.go"] = {
+                            fg = colors.mauve,
+                        },
+                        ["@character.printf"] = {
+                            fg = colors.peach,
+                        },
                         ["@keyword.return"] = {
                             fg = colors.red,
                         },
