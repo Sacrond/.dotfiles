@@ -239,6 +239,9 @@ return {
                         ["@lsp.type.escapeSequence.rust"] = {
                             fg = colors.blue,
                         },
+                        ["@lsp.type.formatSpecifier.rust"] = {
+                            fg = colors.peach,
+                        },
                         ["@lsp.type.derive.rust"] = {
                             fg = colors.subtext1,
                         },
