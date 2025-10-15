@@ -212,6 +212,9 @@ return {
                         ["@lsp.type.selfKeyword.rust"] = {
                             fg = colors.peach,
                         },
+                        ["@lsp.type.const.rust"] = {
+                            fg = colors.mauve,
+                        },
                         ["@lsp.typemod.enumMember.library.rust"] = {
                             fg = colors.mauve,
                         },
