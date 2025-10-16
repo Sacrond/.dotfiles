@@ -171,6 +171,9 @@ return {
                         ["@parameter"] = {
                             fg = colors.peach,
                         },
+                        ["@variable.parameter"] = {
+                            fg = colors.peach,
+                        },
                         ["@type.builtin"] = {
                             fg = colors.sky,
                         },
