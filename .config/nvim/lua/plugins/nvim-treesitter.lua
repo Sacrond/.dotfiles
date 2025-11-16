@@ -20,12 +20,13 @@ return {
     dependencies = { "hiphish/rainbow-delimiters.nvim" },
     opts = function(_, opts)
         require("rainbow-delimiters.setup").setup({
+            disable = { "html" },
             strategy = {
                 [""] = "rainbow-delimiters.strategy.global",
                 vim = "rainbow-delimiters.strategy.local",
             },
             query = {
-                [""] = "rainbow-delimiters",
+                [""] = "rainbow-parens",
                 lua = "rainbow-blocks",
             },
             priority = {

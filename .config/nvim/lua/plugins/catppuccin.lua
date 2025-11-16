@@ -227,6 +227,9 @@ return {
                         ["@lsp.type.enumMember.rust"] = {
                             fg = colors.mauve,
                         },
+                        ["@function.macro.rust"] = {
+                            fg = colors.green,
+                        },
                         ["@lsp.type.decorator.rusts"] = {
                             fg = colors.green,
                         },
@@ -253,6 +256,18 @@ return {
                         },
                         ["@keyword.repeat.javascript"] = {
                             fg = colors.red,
+                        },
+                        ["@tag.html"] = {
+                            fg = colors.red,
+                        },
+                        ["@tag.attribute.html"] = {
+                            fg = colors.sky,
+                        },
+                        ["@tag.delimiter.html"] = {
+                            fg = colors.text,
+                        },
+                        ["@operator.html"] = {
+                            fg = colors.text,
                         },
                         NeoTreeIndentMarker = {
                             fg = colors.surface0,
