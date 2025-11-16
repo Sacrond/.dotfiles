@@ -260,13 +260,25 @@ return {
                         ["@tag.html"] = {
                             fg = colors.red,
                         },
+                        ["@tag.svelte"] = {
+                            fg = colors.red,
+                        },
                         ["@tag.attribute.html"] = {
+                            fg = colors.sky,
+                        },
+                        ["@tag.attribute.svelte"] = {
                             fg = colors.sky,
                         },
                         ["@tag.delimiter.html"] = {
                             fg = colors.text,
                         },
+                        ["@tag.delimiter.svelte"] = {
+                            fg = colors.text,
+                        },
                         ["@operator.html"] = {
+                            fg = colors.text,
+                        },
+                        ["@operator.svelte"] = {
                             fg = colors.text,
                         },
                         NeoTreeIndentMarker = {
