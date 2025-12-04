@@ -26,8 +26,10 @@ return {
                 vim = "rainbow-delimiters.strategy.local",
             },
             query = {
-                [""] = "rainbow-parens",
+                [""] = "rainbow-delimiters",
                 lua = "rainbow-blocks",
+                html = "rainbow-parens",
+                svelte = "rainbow-parens",
             },
             priority = {
                 [""] = 110,

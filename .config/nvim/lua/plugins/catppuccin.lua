@@ -254,6 +254,9 @@ return {
                         ["@lsp.type.derive.rust"] = {
                             fg = colors.subtext1,
                         },
+                        ["@lsp.typemod.string.format.go"] = {
+                            fg = colors.peach,
+                        },
                         ["@keyword.repeat.javascript"] = {
                             fg = colors.red,
                         },
@@ -280,6 +283,28 @@ return {
                         },
                         ["@operator.svelte"] = {
                             fg = colors.text,
+                        },
+                        ["@markup.heading.1.svelte"] = {
+                            fg = colors.text,
+                        },
+                        ["@markup.heading.2.svelte"] = {
+                            fg = colors.text,
+                        },
+                        ["@markup.heading.3.svelte"] = {
+                            fg = colors.text,
+                        },
+                        ["@markup.heading.4.svelte"] = {
+                            fg = colors.text,
+                        },
+                        ["@markup.heading.5.svelte"] = {
+                            fg = colors.text,
+                        },
+                        ["@string.special.url.svelte"] = {
+                            fg = colors.yellow,
+                            style = { "underline" },
+                        },
+                        ["@keyword.typescript"] = {
+                            fg = colors.sky,
                         },
                         NeoTreeIndentMarker = {
                             fg = colors.surface0,
