@@ -10,6 +10,7 @@ alias la="ls -lashN --color=auto --group-directories-first"
 alias grep="grep --color=auto"
 alias diff="diff --color=auto"
 alias ip="ip -color=auto"
+alias open="xdg-open ."
 
 # === Neovim === #
 alias vim="nvim"
